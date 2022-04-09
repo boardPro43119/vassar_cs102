@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ISet
+comment0.text=\n\ An\ interface\ specifying\ the\ operations\ that\ should\ be\ supported\n\ by\ a\ dynamic\ set\ abstract\ data\ type.\n\n\ @author\ Rui\ Meireles\n\ @version\ 1.0\n
+comment1.params=o
+comment1.target=boolean\ add(java.lang.Object)
+comment1.text=\n\ Adds\ an\ object\ to\ the\ set.\n\n\ @param\ Object\ o\ the\ object\ to\ be\ added\ to\ the\ set.\n\ @return\ true\ if\ the\ object\ was\ added,\ false\ if\ it\ was\ already\ present.\n
+comment2.params=o
+comment2.target=boolean\ remove(java.lang.Object)
+comment2.text=\n\ Removes\ an\ object\ from\ the\ set.\n\n\ @param\ Object\ o\ the\ object\ to\ be\ removed\ from\ the\ set.\n\ @return\ true\ if\ the\ object\ was\ removed,\ false\ if\ it\ was\ not\ present\ in\n\ the\ set.\n
+comment3.params=o
+comment3.target=boolean\ contains(java.lang.Object)
+comment3.text=\n\ Checks\ whether\ the\ object\ passed\ as\ an\ argument\ is\ present\ in\ the\ set.\n\n\ @param\ Object\ o\ the\ object\ whose\ presence\ is\ to\ be\ tested.\n\ @return\ true\ if\ the\ object\ is\ present\ in\ the\ set,\ false\ otherwise.\n
+comment4.params=
+comment4.target=int\ getSize()
+comment4.text=\n\ Returns\ the\ number\ of\ elements\ in\ the\ set.\n\n\ @return\ the\ number\ of\ elements\ in\ the\ set.\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Returns\ a\ String\ representation\ of\ the\ set\ elements.\n\n\ @return\ the\ string\ representation\ of\ the\ set.\n
+numComments=6

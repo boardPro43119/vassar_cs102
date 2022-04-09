@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=IList
+comment0.text=\n\ An\ interface\ specifying\ the\ operations\ that\ should\ be\ supported\n\ by\ a\ simple\ list\ data\ structure.\n\n\ @author\ Rui\ Meireles\n\ @version\ 1.0\n
+comment1.params=o
+comment1.target=void\ add(java.lang.Object)
+comment1.text=\n\ Appends\ an\ object\ to\ the\ end\ of\ the\ list.\n\n\ @param\ Object\ o\ the\ object\ to\ add\ to\ the\ list\n
+comment2.params=o\ idx
+comment2.target=boolean\ add(java.lang.Object,\ int)
+comment2.text=\n\ Adds\ a\ new\ element\ to\ the\ list\ at\ the\ index\ specified\ as\ an\ argument.\n\n\ @param\ \ idx\ \ the\ index\ at\ which\ the\ new\ element\ should\ be\ found\ once\ it\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ has\ been\ added\ to\ the\ list.\n\ @return\ true\ if\ the\ object\ was\ added,\ false\ if\ the\ element\ couldn't\ be\n\ \ \ \ \ \ \ \ \ added\ because\ the\ specified\ index\ is\ invalid.\ An\ index\ is\ invalid\n\ \ \ \ \ \ \ \ \ if\ it\ is\ not\ an\ integer\ in\ the\ range\ [0,\ list\ length].\n
+comment3.params=idx
+comment3.target=java.lang.Object\ remove(int)
+comment3.text=\n\ Removes\ the\ list\ element\ located\ at\ the\ index\ specified\ as\ an\ argument.\n\n\ @param\ idx\ the\ index\ at\ which\ the\ element\ to\ be\ removed\ resides.\n\ @return\ the\ element\ removed\ or\ null\ if\ there\ is\ no\ element\ at\ that\ index.\n
+comment4.params=idx
+comment4.target=java.lang.Object\ get(int)
+comment4.text=\n\ Returns\ the\ list\ element\ stored\ at\ the\ index\ specified\ as\ an\ argument.\n\n\ @param\ idx\ the\ index\ of\ the\ object\ to\ be\ retrieved.\n\ @return\ the\ element\ at\ the\ specified\ index\ or\ null\ if\ there\ is\ no\ such\n\ element.\n
+comment5.params=o
+comment5.target=int\ find(java.lang.Object)
+comment5.text=\n\ Returns\ the\ index\ at\ which\ the\ object\ passed\ as\ an\ argument\ can\ be\ found\n\ in\ the\ list.\ Equality\ is\ determined\ by\ the\ equals(Object\ o)\ method,\n\ defined\ in\ the\ Object\ class.\n\ If\ the\ object\ is\ present\ multiple\ times,\ the\ lowest\ index\ at\ which\ it\ can\n\ be\ found\ is\ returned.\ If\ the\ element\ is\ not\ present\ in\ the\ list,\ -1\ is\n\ returned.\n\n\ @param\ o\ the\ object\ we're\ trying\ to\ find\n\ @return\ the\ index\ of\ the\ first\ ocurrence\ of\ Object\ o,\ or\ -1\ is\ not\ found.\n
+comment6.params=
+comment6.target=int\ getLength()
+comment6.text=\n\ Returns\ the\ number\ of\ elements\ in\ the\ list.\n\n\ @return\ the\ number\ of\ elements\ in\ the\ list.\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ Returns\ a\ String\ representation\ of\ the\ list\ elements.\n\n\ @return\ the\ string\ representation\ of\ the\ list.\n
+numComments=8

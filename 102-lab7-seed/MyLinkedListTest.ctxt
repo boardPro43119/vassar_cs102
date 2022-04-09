@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MyLinkedListTest
+comment0.text=\n\ A\ class\ that\ tests\ out\ a\ list\ implementation.\n\n\ @author\ Rui\ Meireles\n\ @version\ 1.0\n
+comment1.params=list\ low\ high\ offset
+comment1.target=void\ checkListContents(IList,\ int,\ int,\ int)
+comment1.text=\n\ Checks\ list\ contains\ integers\ from\ low+offset\ to\ high+offset,\ in\ order,\ at\ indices\ low\ to\ high.\n\ @param\ list\ The\ list\ we're\ checking.\n\ @param\ low\ The\ smallest\ index\ we're\ checking.\n\ @param\ high\ The\ largest\ index\ we're\ checking.\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\n\ Creates\ a\ list,\ adds\ integer\ elements\ from\ 0\ to\ 99,\n\ makes\ some\ checks.\n
+numComments=3

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SetMyLinkedList
+comment0.text=\n\ A\ class\ that\ implements\ the\ set\ interface\ using\ the\ linked\ list\ from\ the\ last\ lab.\n\n\ @author\n\ @version\n
+comment1.params=
+comment1.target=SetMyLinkedList()
+comment2.params=o
+comment2.target=boolean\ add(java.lang.Object)
+comment3.params=o
+comment3.target=boolean\ remove(java.lang.Object)
+comment4.params=o
+comment4.target=boolean\ contains(java.lang.Object)
+comment5.params=
+comment5.target=int\ getSize()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

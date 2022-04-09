@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Node
+comment0.text=\n\ A\ simple\ class\ to\ represent\ a\ node\ in\ a\ linked\ list.\n\n\ @author\ Rui\ Meireles\n\ @version\ 1.0\n
+comment1.params=value
+comment1.target=Node(java.lang.Object)
+comment1.text=\n\ Constructs\ a\ new\ object\ with\ the\ value\ passed\ in\ as\ an\ argument\ and\ a\n\ null\ next\ reference.\n\ @param\ value\ the\ value\ to\ store\ in\ the\ node\n
+comment2.params=value\ next
+comment2.target=Node(java.lang.Object,\ Node)
+comment2.text=\n\ Constructs\ a\ new\ object\ with\ the\ value\ passed\ in\ as\ an\ argument\ and\ a\n\ next\ reference\ to\ a\ node\ passed\ as\ an\ argument.\n\ @param\ value\ the\ value\ to\ store\ in\ the\ node\n\ @param\ next\ the\ node\ coming\ next\ in\ the\ list\n
+comment3.params=
+comment3.target=java.lang.Object\ getValue()
+comment3.text=\n\ Returns\ the\ value\ stored\ at\ this\ node.\n\ @return\ the\ value\ stored\ at\ this\ node\n
+comment4.params=value
+comment4.target=void\ setValue(java.lang.Object)
+comment4.text=\n\ Sets\ the\ value\ of\ this\ node\ to\ the\ value\ passed\ as\ an\ argument.\n\ @param\ value\ value\ to\ be\ stored\n
+comment5.params=
+comment5.target=Node\ getNext()
+comment5.text=\n\ Returns\ the\ next\ reference\ stored\ at\ this\ node,\ which\ represents\n\ the\ next\ node\ in\ the\ linked\ list.\n\ @return\ the\ next\ reference\ stored\ at\ this\ node\n
+comment6.params=next
+comment6.target=void\ setNext(Node)
+comment6.text=\n\ Sets\ this\ node's\ next\ reference,\ which\ represents\ the\ next\ node\n\ in\ the\ linked\ list,\ to\ the\ value\ passed\ as\ an\ argument.\n\ @param\ next\ next\ node\ reference\ to\ be\ stored\ in\ the\ node\n
+numComments=7
